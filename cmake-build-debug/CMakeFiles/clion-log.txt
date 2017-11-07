@@ -1,0 +1,4 @@
+"/Users/justinbeaudry/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/CLion.app/Contents/bin/cmake/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/justinbeaudry/Projects/ModanEngine
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/justinbeaudry/Projects/ModanEngine/cmake-build-debug
