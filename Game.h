@@ -1,5 +1,4 @@
-#ifndef INC_2DGAMEENGINE_GAME_H
-#define INC_2DGAMEENGINE_GAME_H
+#pragma once
 
 #include <SDL2/SDL.h>
 #include <SDL2_image/SDL_image.h>
@@ -25,5 +24,3 @@ private:
     bool isRunning;
     SDL_Window *window;
 };
-
-#endif

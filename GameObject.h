@@ -1,5 +1,4 @@
-#ifndef MODANENGINE_GAMEOBJECT_H
-#define MODANENGINE_GAMEOBJECT_H
+#pragma once
 
 #include <SDL2/SDL.h>
 
@@ -23,6 +22,3 @@ private:
     SDL_Rect destRect;
     SDL_Renderer* renderer;
 };
-
-
-#endif //MODANENGINE_GAMEOBJECT_H

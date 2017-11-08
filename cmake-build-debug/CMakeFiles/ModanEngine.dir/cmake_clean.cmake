@@ -4,7 +4,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/ModanEngine.dir/TextureManager.cpp.o"
   "CMakeFiles/ModanEngine.dir/GameObject.cpp.o"
   "CMakeFiles/ModanEngine.dir/Map.cpp.o"
-  "CMakeFiles/ModanEngine.dir/ECS.cpp.o"
   "ModanEngine.pdb"
   "ModanEngine"
 )

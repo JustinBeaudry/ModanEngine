@@ -1,5 +1,4 @@
-#ifndef MODANENGINE_ECS_H
-#define MODANENGINE_ECS_H
+#pragma once
 
 #include <iostream>
 #include <vector>
@@ -26,35 +25,41 @@ template <typename T> inline ComponentID getComponentTypeID() noexcept {
 constexpr std::size_t maxComponents = 32;
 
 using ComponentBitSet = std::bitset<maxComponents>;
-using ComponentArray  = std::array<Component*, maxComponents>
+using ComponentArray  = std::array<Component*, maxComponents>;
 
 class Component {
 public:
     Entity* entity;
 
-    virtual void init();
-    virtual void update();
-    virtual void draw();
+    virtual void init() {};
+    virtual void update() {};
+    virtual void draw() {};
 
-    virtual ~Component();
+    virtual ~Component() {};
 };
 
 class Entity {
+private:
+    bool active = true;
+    std::vector<std::unique_ptr<Component>> components;
+
+    ComponentArray componentArray;
+    ComponentBitSet componentBitSet;
 public:
     void update() {
         for (auto& c : components) c->update();
         for (auto& c : components) c->draw();
     }
-
     void draw() {}
+    bool isActive() const { return active; }
     void destroy() { active = false; }
-    bool isActive() { return active; }
 
     template <typename T> bool hasComponent() const {
        return componentBitSet[getComponentTypeID<T>];
     }
 
-    template <typename T, typename... TArgs> T& addComponent(TArgs&&... mArgs) const {
+    template <typename T, typename... TArgs>
+    T& addComponent(TArgs&&... mArgs) {
         T* c(new T(std::forward<TArgs>(mArgs)...));
         c->entity = this;
         std::unique_ptr<Component> uPtr{ c };
@@ -72,15 +77,11 @@ public:
         auto ptr(componentArray[getComponentTypeID<T>()]);
         return *static_cast<T*>(ptr);
     }
-private:
-    bool active = true;
-    std::vector<std::unique_ptr<Component>> components;
-
-    ComponentArray componentArray;
-    ComponentBitSet  componentBitSet;
 };
 
 class Manager {
+private:
+    std::vector<std::unique_ptr<Entity>> entities;
 public:
     void update() {
         for (auto& e : entities) e->update();
@@ -96,14 +97,12 @@ public:
         }), std::end(entities));
     }
 
-    Enitiy& addEntity() {
+    Entity& addEntity() {
         Entity* e = new Entity();
         std::unique_ptr<Entity> uPtr{ e };
 
         entities.emplace_back(std::move(uPtr));
-    }
-private:
-    std::vector<std::unique_ptr<Entity>> entities;
-};
 
-#endif //MODANENGINE_ECS_H
+        return *e;
+    }
+};

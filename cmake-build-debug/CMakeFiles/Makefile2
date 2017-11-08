@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Users/justinbeaudry/Projects/ModanEngine/cmake-build-debug
 CMakeFiles/ModanEngine.dir/all:
 	$(MAKE) -f CMakeFiles/ModanEngine.dir/build.make CMakeFiles/ModanEngine.dir/depend
 	$(MAKE) -f CMakeFiles/ModanEngine.dir/build.make CMakeFiles/ModanEngine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/justinbeaudry/Projects/ModanEngine/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target ModanEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/justinbeaudry/Projects/ModanEngine/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target ModanEngine"
 .PHONY : CMakeFiles/ModanEngine.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/ModanEngine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ModanEngine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/justinbeaudry/Projects/ModanEngine/cmake-build-debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/justinbeaudry/Projects/ModanEngine/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ModanEngine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/justinbeaudry/Projects/ModanEngine/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ModanEngine.dir/rule

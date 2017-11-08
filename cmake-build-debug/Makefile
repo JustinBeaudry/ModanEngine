@@ -123,33 +123,6 @@ ModanEngine/fast:
 	$(MAKE) -f CMakeFiles/ModanEngine.dir/build.make CMakeFiles/ModanEngine.dir/build
 .PHONY : ModanEngine/fast
 
-ECS.o: ECS.cpp.o
-
-.PHONY : ECS.o
-
-# target to build an object file
-ECS.cpp.o:
-	$(MAKE) -f CMakeFiles/ModanEngine.dir/build.make CMakeFiles/ModanEngine.dir/ECS.cpp.o
-.PHONY : ECS.cpp.o
-
-ECS.i: ECS.cpp.i
-
-.PHONY : ECS.i
-
-# target to preprocess a source file
-ECS.cpp.i:
-	$(MAKE) -f CMakeFiles/ModanEngine.dir/build.make CMakeFiles/ModanEngine.dir/ECS.cpp.i
-.PHONY : ECS.cpp.i
-
-ECS.s: ECS.cpp.s
-
-.PHONY : ECS.s
-
-# target to generate assembly for a file
-ECS.cpp.s:
-	$(MAKE) -f CMakeFiles/ModanEngine.dir/build.make CMakeFiles/ModanEngine.dir/ECS.cpp.s
-.PHONY : ECS.cpp.s
-
 Game.o: Game.cpp.o
 
 .PHONY : Game.o
@@ -294,9 +267,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ModanEngine"
-	@echo "... ECS.o"
-	@echo "... ECS.i"
-	@echo "... ECS.s"
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"

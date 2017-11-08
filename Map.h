@@ -1,5 +1,4 @@
-#ifndef MODANENGINE_MAP_H
-#define MODANENGINE_MAP_H
+#pragma once
 
 #include "Game.h"
 
@@ -24,5 +23,3 @@ private:
 
     int map[20][25];
 };
-
-#endif //MODANENGINE_MAP_H

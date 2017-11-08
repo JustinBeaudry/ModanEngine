@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/justinbeaudry/Projects/ModanEngine/ECS.cpp
+/Users/justinbeaudry/Projects/ModanEngine/Component.h
 ECS.h
 /Users/justinbeaudry/Projects/ModanEngine/ECS.h
 
@@ -31,6 +31,10 @@ GameObject.h
 /Users/justinbeaudry/Projects/ModanEngine/GameObject.h
 Map.h
 /Users/justinbeaudry/Projects/ModanEngine/Map.h
+ECS.h
+/Users/justinbeaudry/Projects/ModanEngine/ECS.h
+Component.h
+/Users/justinbeaudry/Projects/ModanEngine/Component.h
 
 /Users/justinbeaudry/Projects/ModanEngine/Game.h
 SDL2/SDL.h

@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/justinbeaudry/Projects/ModanEngine/ECS.cpp">
+		<Unit filename="/Users/justinbeaudry/Projects/ModanEngine/Component.h">
 			<Option target="ModanEngine"/>
 		</Unit>
 		<Unit filename="/Users/justinbeaudry/Projects/ModanEngine/ECS.h">
