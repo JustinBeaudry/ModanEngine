@@ -48,14 +48,15 @@ private:
 public:
     void update() {
         for (auto& c : components) c->update();
+    }
+    void draw() {
         for (auto& c : components) c->draw();
     }
-    void draw() {}
     bool isActive() const { return active; }
     void destroy() { active = false; }
 
     template <typename T> bool hasComponent() const {
-       return componentBitSet[getComponentTypeID<T>];
+       return componentBitSet[getComponentTypeID<T>()];
     }
 
     template <typename T, typename... TArgs>

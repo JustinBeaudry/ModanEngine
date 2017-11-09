@@ -177,13 +177,63 @@ CMakeFiles/ModanEngine.dir/Map.cpp.o.provides: CMakeFiles/ModanEngine.dir/Map.cp
 CMakeFiles/ModanEngine.dir/Map.cpp.o.provides.build: CMakeFiles/ModanEngine.dir/Map.cpp.o
 
 
+CMakeFiles/ModanEngine.dir/Vector2D.cpp.o: CMakeFiles/ModanEngine.dir/flags.make
+CMakeFiles/ModanEngine.dir/Vector2D.cpp.o: ../Vector2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/justinbeaudry/Projects/ModanEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ModanEngine.dir/Vector2D.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ModanEngine.dir/Vector2D.cpp.o -c /Users/justinbeaudry/Projects/ModanEngine/Vector2D.cpp
+
+CMakeFiles/ModanEngine.dir/Vector2D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ModanEngine.dir/Vector2D.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/justinbeaudry/Projects/ModanEngine/Vector2D.cpp > CMakeFiles/ModanEngine.dir/Vector2D.cpp.i
+
+CMakeFiles/ModanEngine.dir/Vector2D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ModanEngine.dir/Vector2D.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/justinbeaudry/Projects/ModanEngine/Vector2D.cpp -o CMakeFiles/ModanEngine.dir/Vector2D.cpp.s
+
+CMakeFiles/ModanEngine.dir/Vector2D.cpp.o.requires:
+
+.PHONY : CMakeFiles/ModanEngine.dir/Vector2D.cpp.o.requires
+
+CMakeFiles/ModanEngine.dir/Vector2D.cpp.o.provides: CMakeFiles/ModanEngine.dir/Vector2D.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ModanEngine.dir/build.make CMakeFiles/ModanEngine.dir/Vector2D.cpp.o.provides.build
+.PHONY : CMakeFiles/ModanEngine.dir/Vector2D.cpp.o.provides
+
+CMakeFiles/ModanEngine.dir/Vector2D.cpp.o.provides.build: CMakeFiles/ModanEngine.dir/Vector2D.cpp.o
+
+
+CMakeFiles/ModanEngine.dir/Collision.cpp.o: CMakeFiles/ModanEngine.dir/flags.make
+CMakeFiles/ModanEngine.dir/Collision.cpp.o: ../Collision.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/justinbeaudry/Projects/ModanEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ModanEngine.dir/Collision.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ModanEngine.dir/Collision.cpp.o -c /Users/justinbeaudry/Projects/ModanEngine/Collision.cpp
+
+CMakeFiles/ModanEngine.dir/Collision.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ModanEngine.dir/Collision.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/justinbeaudry/Projects/ModanEngine/Collision.cpp > CMakeFiles/ModanEngine.dir/Collision.cpp.i
+
+CMakeFiles/ModanEngine.dir/Collision.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ModanEngine.dir/Collision.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/justinbeaudry/Projects/ModanEngine/Collision.cpp -o CMakeFiles/ModanEngine.dir/Collision.cpp.s
+
+CMakeFiles/ModanEngine.dir/Collision.cpp.o.requires:
+
+.PHONY : CMakeFiles/ModanEngine.dir/Collision.cpp.o.requires
+
+CMakeFiles/ModanEngine.dir/Collision.cpp.o.provides: CMakeFiles/ModanEngine.dir/Collision.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ModanEngine.dir/build.make CMakeFiles/ModanEngine.dir/Collision.cpp.o.provides.build
+.PHONY : CMakeFiles/ModanEngine.dir/Collision.cpp.o.provides
+
+CMakeFiles/ModanEngine.dir/Collision.cpp.o.provides.build: CMakeFiles/ModanEngine.dir/Collision.cpp.o
+
+
 # Object files for target ModanEngine
 ModanEngine_OBJECTS = \
 "CMakeFiles/ModanEngine.dir/main.cpp.o" \
 "CMakeFiles/ModanEngine.dir/Game.cpp.o" \
 "CMakeFiles/ModanEngine.dir/TextureManager.cpp.o" \
 "CMakeFiles/ModanEngine.dir/GameObject.cpp.o" \
-"CMakeFiles/ModanEngine.dir/Map.cpp.o"
+"CMakeFiles/ModanEngine.dir/Map.cpp.o" \
+"CMakeFiles/ModanEngine.dir/Vector2D.cpp.o" \
+"CMakeFiles/ModanEngine.dir/Collision.cpp.o"
 
 # External object files for target ModanEngine
 ModanEngine_EXTERNAL_OBJECTS =
@@ -193,9 +243,11 @@ ModanEngine: CMakeFiles/ModanEngine.dir/Game.cpp.o
 ModanEngine: CMakeFiles/ModanEngine.dir/TextureManager.cpp.o
 ModanEngine: CMakeFiles/ModanEngine.dir/GameObject.cpp.o
 ModanEngine: CMakeFiles/ModanEngine.dir/Map.cpp.o
+ModanEngine: CMakeFiles/ModanEngine.dir/Vector2D.cpp.o
+ModanEngine: CMakeFiles/ModanEngine.dir/Collision.cpp.o
 ModanEngine: CMakeFiles/ModanEngine.dir/build.make
 ModanEngine: CMakeFiles/ModanEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/justinbeaudry/Projects/ModanEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ModanEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/justinbeaudry/Projects/ModanEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ModanEngine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ModanEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -208,6 +260,8 @@ CMakeFiles/ModanEngine.dir/requires: CMakeFiles/ModanEngine.dir/Game.cpp.o.requi
 CMakeFiles/ModanEngine.dir/requires: CMakeFiles/ModanEngine.dir/TextureManager.cpp.o.requires
 CMakeFiles/ModanEngine.dir/requires: CMakeFiles/ModanEngine.dir/GameObject.cpp.o.requires
 CMakeFiles/ModanEngine.dir/requires: CMakeFiles/ModanEngine.dir/Map.cpp.o.requires
+CMakeFiles/ModanEngine.dir/requires: CMakeFiles/ModanEngine.dir/Vector2D.cpp.o.requires
+CMakeFiles/ModanEngine.dir/requires: CMakeFiles/ModanEngine.dir/Collision.cpp.o.requires
 
 .PHONY : CMakeFiles/ModanEngine.dir/requires
 

@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ModanEngine.dir/TextureManager.cpp.o"
   "CMakeFiles/ModanEngine.dir/GameObject.cpp.o"
   "CMakeFiles/ModanEngine.dir/Map.cpp.o"
+  "CMakeFiles/ModanEngine.dir/Vector2D.cpp.o"
+  "CMakeFiles/ModanEngine.dir/Collision.cpp.o"
   "ModanEngine.pdb"
   "ModanEngine"
 )

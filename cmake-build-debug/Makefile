@@ -123,6 +123,33 @@ ModanEngine/fast:
 	$(MAKE) -f CMakeFiles/ModanEngine.dir/build.make CMakeFiles/ModanEngine.dir/build
 .PHONY : ModanEngine/fast
 
+Collision.o: Collision.cpp.o
+
+.PHONY : Collision.o
+
+# target to build an object file
+Collision.cpp.o:
+	$(MAKE) -f CMakeFiles/ModanEngine.dir/build.make CMakeFiles/ModanEngine.dir/Collision.cpp.o
+.PHONY : Collision.cpp.o
+
+Collision.i: Collision.cpp.i
+
+.PHONY : Collision.i
+
+# target to preprocess a source file
+Collision.cpp.i:
+	$(MAKE) -f CMakeFiles/ModanEngine.dir/build.make CMakeFiles/ModanEngine.dir/Collision.cpp.i
+.PHONY : Collision.cpp.i
+
+Collision.s: Collision.cpp.s
+
+.PHONY : Collision.s
+
+# target to generate assembly for a file
+Collision.cpp.s:
+	$(MAKE) -f CMakeFiles/ModanEngine.dir/build.make CMakeFiles/ModanEngine.dir/Collision.cpp.s
+.PHONY : Collision.cpp.s
+
 Game.o: Game.cpp.o
 
 .PHONY : Game.o
@@ -231,6 +258,33 @@ TextureManager.cpp.s:
 	$(MAKE) -f CMakeFiles/ModanEngine.dir/build.make CMakeFiles/ModanEngine.dir/TextureManager.cpp.s
 .PHONY : TextureManager.cpp.s
 
+Vector2D.o: Vector2D.cpp.o
+
+.PHONY : Vector2D.o
+
+# target to build an object file
+Vector2D.cpp.o:
+	$(MAKE) -f CMakeFiles/ModanEngine.dir/build.make CMakeFiles/ModanEngine.dir/Vector2D.cpp.o
+.PHONY : Vector2D.cpp.o
+
+Vector2D.i: Vector2D.cpp.i
+
+.PHONY : Vector2D.i
+
+# target to preprocess a source file
+Vector2D.cpp.i:
+	$(MAKE) -f CMakeFiles/ModanEngine.dir/build.make CMakeFiles/ModanEngine.dir/Vector2D.cpp.i
+.PHONY : Vector2D.cpp.i
+
+Vector2D.s: Vector2D.cpp.s
+
+.PHONY : Vector2D.s
+
+# target to generate assembly for a file
+Vector2D.cpp.s:
+	$(MAKE) -f CMakeFiles/ModanEngine.dir/build.make CMakeFiles/ModanEngine.dir/Vector2D.cpp.s
+.PHONY : Vector2D.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -267,6 +321,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ModanEngine"
+	@echo "... Collision.o"
+	@echo "... Collision.i"
+	@echo "... Collision.s"
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
@@ -279,6 +336,9 @@ help:
 	@echo "... TextureManager.o"
 	@echo "... TextureManager.i"
 	@echo "... TextureManager.s"
+	@echo "... Vector2D.o"
+	@echo "... Vector2D.i"
+	@echo "... Vector2D.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

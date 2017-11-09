@@ -80,10 +80,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/justinbeaudry/Projects/ModanEngine/Component.h">
+		<Unit filename="/Users/justinbeaudry/Projects/ModanEngine/Collision.cpp">
 			<Option target="ModanEngine"/>
 		</Unit>
-		<Unit filename="/Users/justinbeaudry/Projects/ModanEngine/ECS.h">
+		<Unit filename="/Users/justinbeaudry/Projects/ModanEngine/Collision.h">
+			<Option target="ModanEngine"/>
+		</Unit>
+		<Unit filename="/Users/justinbeaudry/Projects/ModanEngine/ECS/Collider.h">
+			<Option target="ModanEngine"/>
+		</Unit>
+		<Unit filename="/Users/justinbeaudry/Projects/ModanEngine/ECS/Components.h">
+			<Option target="ModanEngine"/>
+		</Unit>
+		<Unit filename="/Users/justinbeaudry/Projects/ModanEngine/ECS/ECS.h">
+			<Option target="ModanEngine"/>
+		</Unit>
+		<Unit filename="/Users/justinbeaudry/Projects/ModanEngine/ECS/KeyboardController.h">
+			<Option target="ModanEngine"/>
+		</Unit>
+		<Unit filename="/Users/justinbeaudry/Projects/ModanEngine/ECS/Sprite.h">
+			<Option target="ModanEngine"/>
+		</Unit>
+		<Unit filename="/Users/justinbeaudry/Projects/ModanEngine/ECS/Tile.h">
+			<Option target="ModanEngine"/>
+		</Unit>
+		<Unit filename="/Users/justinbeaudry/Projects/ModanEngine/ECS/Transform.h">
 			<Option target="ModanEngine"/>
 		</Unit>
 		<Unit filename="/Users/justinbeaudry/Projects/ModanEngine/Game.cpp">
@@ -108,6 +129,12 @@
 			<Option target="ModanEngine"/>
 		</Unit>
 		<Unit filename="/Users/justinbeaudry/Projects/ModanEngine/TextureManager.h">
+			<Option target="ModanEngine"/>
+		</Unit>
+		<Unit filename="/Users/justinbeaudry/Projects/ModanEngine/Vector2D.cpp">
+			<Option target="ModanEngine"/>
+		</Unit>
+		<Unit filename="/Users/justinbeaudry/Projects/ModanEngine/Vector2D.h">
 			<Option target="ModanEngine"/>
 		</Unit>
 		<Unit filename="/Users/justinbeaudry/Projects/ModanEngine/main.cpp">
