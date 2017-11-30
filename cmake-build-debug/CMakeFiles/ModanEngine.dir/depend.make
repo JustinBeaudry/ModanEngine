@@ -24,7 +24,6 @@ CMakeFiles/ModanEngine.dir/Game.cpp.o: ../ECS/Tile.h
 CMakeFiles/ModanEngine.dir/Game.cpp.o: ../ECS/Transform.h
 CMakeFiles/ModanEngine.dir/Game.cpp.o: ../Game.cpp
 CMakeFiles/ModanEngine.dir/Game.cpp.o: ../Game.h
-CMakeFiles/ModanEngine.dir/Game.cpp.o: ../Map.h
 CMakeFiles/ModanEngine.dir/Game.cpp.o: ../TextureManager.h
 CMakeFiles/ModanEngine.dir/Game.cpp.o: ../Vector2D.h
 
@@ -36,7 +35,6 @@ CMakeFiles/ModanEngine.dir/GameObject.cpp.o: ../TextureManager.h
 CMakeFiles/ModanEngine.dir/Map.cpp.o: ../Game.h
 CMakeFiles/ModanEngine.dir/Map.cpp.o: ../Map.cpp
 CMakeFiles/ModanEngine.dir/Map.cpp.o: ../Map.h
-CMakeFiles/ModanEngine.dir/Map.cpp.o: ../TextureManager.h
 
 CMakeFiles/ModanEngine.dir/TextureManager.cpp.o: ../Game.h
 CMakeFiles/ModanEngine.dir/TextureManager.cpp.o: ../TextureManager.cpp

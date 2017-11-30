@@ -25,7 +25,6 @@ CMakeFiles/ModanEngine.dir/Game.cpp.o
  /Users/justinbeaudry/Projects/ModanEngine/ECS/Transform.h
  /Users/justinbeaudry/Projects/ModanEngine/Game.cpp
  /Users/justinbeaudry/Projects/ModanEngine/Game.h
- /Users/justinbeaudry/Projects/ModanEngine/Map.h
  /Users/justinbeaudry/Projects/ModanEngine/TextureManager.h
  /Users/justinbeaudry/Projects/ModanEngine/Vector2D.h
 CMakeFiles/ModanEngine.dir/GameObject.cpp.o
@@ -37,7 +36,6 @@ CMakeFiles/ModanEngine.dir/Map.cpp.o
  /Users/justinbeaudry/Projects/ModanEngine/Game.h
  /Users/justinbeaudry/Projects/ModanEngine/Map.cpp
  /Users/justinbeaudry/Projects/ModanEngine/Map.h
- /Users/justinbeaudry/Projects/ModanEngine/TextureManager.h
 CMakeFiles/ModanEngine.dir/TextureManager.cpp.o
  /Users/justinbeaudry/Projects/ModanEngine/Game.h
  /Users/justinbeaudry/Projects/ModanEngine/TextureManager.cpp
